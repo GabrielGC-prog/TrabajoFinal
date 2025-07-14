@@ -11,8 +11,8 @@ img {
   max-width: 400px;
 }
 .card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  border: 10px solid #3c1706;
+  border-radius: 80px;
   padding: 16px;
   margin-bottom: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

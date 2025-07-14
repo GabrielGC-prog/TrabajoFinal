@@ -7,7 +7,17 @@ export const ChocoCard = ({ title, description, image }) => {
       <img src={imageUrl} width="256" height="192" alt={title} />
       <div>
         <h2>{title}</h2>
-        <p>{description}</p>
+        <p
+          style={{
+            display: "flex",
+            textAlign: "center",
+            width: "50%",
+            alignItems: "center",
+            textAlignLast: "center",
+          }}
+        >
+          {description}
+        </p>
       </div>
     </div>
   );

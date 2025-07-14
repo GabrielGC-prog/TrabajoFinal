@@ -3,7 +3,7 @@ import { ChocoCard } from "./chocoCard";
 export const ChocoList = ({ choco }) => {
   return (
     <div>
-      <h2>Chocolates</h2>
+      <h2>Propuestas en chocolates</h2>
       {choco.map((choco, indice) => (
         <ChocoCard
           key={indice + choco.title}
