@@ -8,7 +8,7 @@ img {
   box-shadow: 0 0 4px #ddd4d41a;
   border-radius: 6px;
   padding: 20px;
-  max-width: 400px;
+  max-width: 200px;
 }
 .card {
   border: 10px solid #3c1706;
@@ -16,4 +16,16 @@ img {
   padding: 16px;
   margin-bottom: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+p {
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-align: justify;
+  width: 50%;
+  align-items: safe;
+  text-align-last: center;
 }

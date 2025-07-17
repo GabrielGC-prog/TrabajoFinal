@@ -1,5 +1,4 @@
 import { ChocoCard } from "./chocoCard";
-
 export const ChocoList = ({ choco }) => {
   return (
     <div>

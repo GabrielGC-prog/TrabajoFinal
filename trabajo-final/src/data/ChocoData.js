@@ -5,6 +5,7 @@ const ChocoData = [
       "Surgieron después de las pascuas, que hice unos huevos Trufados espectaculares que la rompieron toda!",
 
     image: "/src/data/barritas 01.jpeg",
+    stock: false,
   },
   {
     title: "Capsulas de chocolate",
@@ -12,6 +13,7 @@ const ChocoData = [
       "Los amantes del submarino cómo yo, las van a amar enormemente se los juro! Y con el café también quedan increíbles 😋",
 
     image: "/src/data/capsulas 01.jpeg",
+    stock: true,
   },
   {
     title: "Barritas",
@@ -19,6 +21,7 @@ const ChocoData = [
       "Rellenas algunas y otras macizas. Ideales para un presente o un pequeño antojo!",
 
     image: "/src/data/tableta rellena 01.jpeg",
+    stock: true,
   },
 ];
 
