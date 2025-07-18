@@ -4,6 +4,7 @@ import { ChocoList } from "./components/ChocoList";
 import ChocoData from "./data/ChocoData";
 import { Filter } from "./components/filtroStock";
 import { useState } from "react";
+import { ChildComponent } from "./components/chocoClick";
 
 function App() {
   const producto = ChocoData;
@@ -11,6 +12,11 @@ function App() {
   const filterStock = mostrarStock
     ? producto.filter((produ) => produ.stock)
     : producto;
+
+  const handleClick = () => {
+    alert("¡Se hizo clic en el botón!");
+  };
+
   return (
     <>
       <div>
@@ -22,6 +28,7 @@ function App() {
       <div>
         <Filter mostrarStock={mostrarStock} setMostrarStock={setMostrarStock} />
         <ChocoList choco={filterStock} />
+        <ChildComponent props={handleClick} />
       </div>
     </>
   );
